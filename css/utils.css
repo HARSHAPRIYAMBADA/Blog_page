@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    --main-bg-color:brown;
+    --font1:"Roboto", sans-serif;
+}
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.btn{
+    padding: 3px 8px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    color:beige;
+    background-color: rgb(15, 15, 81);
+
+}
+.form-input{
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+
+}
+.content{
+    height: 95px;
+    display: flex;
+    background-color:whitesmoke;
+    margin-top: 32px;
+    padding: 9px;
+
+}
+.content::after{
+    content: "";
+    background-image: url(../img/image\ 3.jpg);
+    position: absolute;
+    width: 1200px;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+
+}
+.content-left{
+    font-family: var(--font1);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:49px;
+    z-index: 1;
+}
+.content-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.content-right img{
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    padding: 10px;
+}
+.my-2{
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+.form-box input, textarea{
+    width: 52vw;
+    padding: 10px 6px;
+    margin: 7px 0;
+    font-size: 10px;
+    font-family: var(--font1);
+    border-radius: 10px navy;
+
+
+
+
+}

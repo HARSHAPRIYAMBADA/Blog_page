@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    margin-top: 23px;
+    height: 74px;
+    background-color:lavender;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font1);
+
+}
+.nav-left{
+    font-size: 40px;
+    display: flex;
+    
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin: 0 100px;
+    font-size: 22px;
+}
+.nav-left ul li{
+    list-style: none;
+    margin:0 14px ;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-left ul li:hover{
+    color:rgb(35, 35, 141);
+    font-weight: bolder;
+}
+.nav-left ul li a:hover{
+    color:rgb(35, 35, 141);
+    font-weight: bolder;
+    
+
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+nav.right{
+
+}
+.content{
+    height: 100%;
+    display: flex;
+    padding: 9px;
+    margin-top: 32px;
+    position: relative;
+
+}
+.footer{
+    height: 50px;
+    display: flex;
+    background-color: rgb(7, 7, 82);
+    align-items: center;
+    justify-content: center;
+    color:white;
+    flex-direction: column;
+}
+
+.footer a{
+    color: white;
+
+}
+.home-articles{
+    background-color: rgb(223, 223, 243 0.5);
+    padding-top: 12px;
+    margin-top: 23px;
+    position: relative;
+}
+.year-box{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    width: 234px;
+    height: 255px;
+    font-size: 18px;
+
+}
+.year-box div {
+    margin: 12px 0px;
+
+}
+.home-article{
+    display: flex;
+    padding: 10px;
+
+}
+.home-article img{
+    width: 300px;
+
+}
+.home-article-content{
+    align-self: center;
+    padding: 25px;
+}
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.go{
+    margin-left: 143px;
+}
